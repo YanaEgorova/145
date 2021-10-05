@@ -1,0 +1,25 @@
+.info__wrapper   {
+}
+.info {
+   padding: 15rem 0;
+}
+.info .img {
+   margin-bottom: 3rem;
+}
+.info .item:not(:last-child) {
+   margin-bottom: 15rem;
+}
+.info .item {
+   background-color: rgba(173, 211, 132, .7);
+   padding: 1rem;
+   width: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+}
+@media screen and (min-width: 1024px)  {
+   .info .item {
+      padding: 5rem;
+   }
+}
+
+

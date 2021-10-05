@@ -1,0 +1,22 @@
+.about__wrapper {
+}
+.about {
+    padding: 20rem 0;
+}
+.about .img {
+    max-width: 70%;
+}
+.ingredients {
+    text-align: center;
+}
+@media screen and (min-width: 1024px) {
+    .about {
+        display: flex;
+        align-items: center;
+        text-align: right;
+    }
+    .about .img {
+       margin: 0;
+       margin-right: 2rem;
+    }
+}

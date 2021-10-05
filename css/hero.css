@@ -1,0 +1,57 @@
+.hero__wrapper {
+  
+}
+.hero {
+    padding: 35rem 0 20rem;
+    position: relative;
+}
+/* PALM LEAFS START */
+.header, .main, .footer {
+    position: relative;
+}
+.img-pos {
+    position: absolute;
+}
+.img-pos1 {
+    right: 0;
+    top: 0;
+    width: 70%;
+    height: auto;
+    max-width: 60rem;
+}
+.img-pos3 {
+    left: 0;
+    top: 30%;
+    transform: translate(0, -50%);
+    width: 70%;
+    height: auto;
+    max-width: 60rem;
+}
+.img-pos2 {
+    right: 0;
+    bottom: 0;
+    width: 70%;
+    height: auto;
+    max-width: 60rem;
+    transform: rotate(180deg);
+}
+.img-pos4 {
+    right: 0;
+    top: 45%;
+    width: 70%;
+    transform: translate(0, -50%);
+    height: auto;
+    max-width: 70rem;
+    transform: rotate(180deg);
+}
+.img-pos5 {
+    left: 0;
+    top: 80%;
+    width: 70%;
+    transform: translate(0, -50%);
+    height: auto;
+    max-width: 50rem;
+}
+@media screen and (min-width: 1024px)  {
+
+}
